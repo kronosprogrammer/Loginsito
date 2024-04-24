@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    display: flex;
+    background-color: #000000;
+
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    max-width: 1400px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.cartas{
+   display: grid ;
+   gap: 30px;
+   grid-template-columns:repeat(2,1fr) 
+
+}
+
+img{
+    height: 7rem;
+    
+    object-fit: cover;
+   animation: 3s  ease-in-out appear forwards;
+    transition: transform .4s ease-in-out;
+}
+
+img:hover {
+   
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform:rotate(360deg) ;
+    }
+
+    transform: scale(1.1);
+
+}    
+

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+.caja-1{
+
+background-color: rgb(0, 255, 255);
+
+
+
+}
+
+
+.caja-2{
+background-color: gray;
+}
+
+.caja-3{
+background-color: rgb(240, 43, 43);
+}
